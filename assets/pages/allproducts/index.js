@@ -39,6 +39,6 @@ window.onload = function () {
   });
   titulos[0].innerHTML = `
   <h2 data-title>Todos</h2>
-  <a href="../addProduct/index.html" class="btn__submit" id="btn__color">Adicionar produto</a>
+  <a href="../addProduct/index.html" class="btn__submit" id="btn__color">Agregar producto</a>
   `;
 };

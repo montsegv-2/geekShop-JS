@@ -5,9 +5,9 @@ import { footer, nav } from "../../js/navHeader/index.js";
 function ExibirMensagem(classe) {
   const msg = document.querySelector("[data-msg]");
   if (classe == "msg--enviar") {
-    msg.innerHTML = "Cadastrado com sucesso";
+    msg.innerHTML = "Registrado con éxito";
   } else {
-    msg.innerHTML = "Existem Campos em branco";
+    msg.innerHTML = "Existe un campo en blanco";
   }
 
   msg.classList.add(classe);
